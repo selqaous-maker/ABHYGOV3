@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-navy: #101D3B;
+  --color-brand-blue: #1765BD;
+  --color-brand-cyan: #23B9ED;
+  --color-brand-green: #70BF35;
+  --color-brand-surface: #F5F8FC;
+
+  --font-display: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-sans: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-arabic: "IBM Plex Sans Arabic", "Public Sans", "Segoe UI", Tahoma, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: var(--color-brand-navy);
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+  }
+
+  html[dir="rtl"] {
+    font-family: var(--font-arabic);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.025em;
+  }
+
+  html[dir="rtl"] h1,
+  html[dir="rtl"] h2,
+  html[dir="rtl"] h3,
+  html[dir="rtl"] h4 {
+    font-family: var(--font-arabic);
+  }
+}
+
+/*
+ * Native Arabic Typography Polish:
+ * Kept outside @layer base so Tailwind tracking-* / uppercase utilities
+ * never break connected Arabic ligatures or stretch Arabic words in RTL.
+ * Explicit [dir="ltr"] spans (brand wordmark, phone numbers, email, codes) remain unaffected.
+ */
+html[dir="rtl"] :where(h1, h2, h3, h4, h5, h6, p, span, a, button, label, li, dt, dd, input, textarea, pre):not([dir="ltr"]):not([dir="ltr"] *) {
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+html[dir="rtl"] :where(h1, h2, h3, h4) {
+  line-height: 1.32;
+}
+
+html[dir="rtl"] .leading-relaxed {
+  line-height: 1.75;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

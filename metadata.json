@@ -1,0 +1,8 @@
+{
+  "name": "ABHYGO",
+  "description": "Fournisseur professionnel de produits d'hygiène et d'Équipements de Protection Individuelle (EPI) à Belfaa, Maroc. Un environnement plus propre, plus sain !",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
