@@ -7,7 +7,6 @@ import {
   ChevronRight,
   Shield,
   Sparkles,
-  Truck,
 } from 'lucide-react';
 import { motion, useReducedMotion } from 'motion/react';
 import { useLanguage } from '../context/LanguageContext';
@@ -31,41 +30,49 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
   const browse = () => document.getElementById('poles-activite')?.scrollIntoView({ behavior: shouldReduceMotion ? 'auto' : 'smooth' });
 
   return (
-    <div className="overflow-hidden bg-[#f5f7f3] text-[#12223d]">
-      {/* NEW DIRECTION: bright B2B catalogue layout with an editorial split hero */}
-      <section className="relative bg-[#f5f7f3] px-4 pb-16 pt-10 sm:px-6 sm:pb-24 lg:px-8 lg:pt-16">
-        <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[0.92fr_1.08fr] lg:gap-20">
-          <motion.div initial={shouldReduceMotion ? false : { opacity: 0, x: -16 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, ease: easeCurve }} className="relative z-10 rtl:text-right">
-            <div className="inline-flex items-center gap-2 rounded-full bg-[#dff5c9] px-3.5 py-2 text-[11px] font-bold uppercase tracking-[0.12em] text-[#306b1d]"><span className="h-2 w-2 rounded-full bg-[#70BF35]" /> ABHYGO · {t.brand.region}</div>
-            <h1 className="mt-7 max-w-2xl text-[clamp(2.75rem,5vw,5.5rem)] font-bold leading-[0.96] tracking-[-0.055em] text-[#12223d] text-balance rtl:text-[clamp(2.35rem,4.5vw,4.7rem)] rtl:leading-[1.18]">{t.home.hero.title}</h1>
-            <p className="mt-6 max-w-xl text-base leading-8 text-[#5d6a78] sm:text-lg">{t.home.hero.subtitle}</p>
+    <div className="overflow-hidden bg-white text-[#12223d]">
+      {/* Reference-style full-bleed hero */}
+      <section className="relative isolate min-h-[620px] overflow-hidden bg-[#07152f] sm:min-h-[680px] lg:min-h-[720px]">
+        <img
+          src={HERO_MEDIA.src}
+          alt={t.home.hero.imageAlt}
+          loading="eager"
+          fetchPriority="high"
+          className="absolute inset-0 h-full w-full object-cover object-[68%_center] sm:object-center"
+        />
+        <div aria-hidden="true" className="absolute inset-0 bg-[#07152f]/58" />
+        <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-r from-[#07152f]/98 via-[#0b1e44]/82 to-[#123774]/28 rtl:bg-gradient-to-l" />
+        <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-[#07152f]/90 via-transparent to-[#07152f]/20" />
+
+        <div className="relative z-10 mx-auto flex min-h-[620px] max-w-7xl items-center px-4 pb-24 pt-20 sm:min-h-[680px] sm:px-6 sm:pb-28 lg:min-h-[720px] lg:px-8">
+          <motion.div
+            initial={shouldReduceMotion ? false : { opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, ease: easeCurve }}
+            className="max-w-2xl rtl:text-right"
+          >
+            <div className="inline-flex items-center gap-3 text-[#dce9f7]">
+              <span aria-hidden="true" className="h-[2px] w-7 bg-[#70BF35]" />
+              <span className="text-[11px] font-bold uppercase tracking-[0.11em] sm:text-xs">{t.home.hero.eyebrow}</span>
+            </div>
+            <h1 className="mt-6 max-w-2xl text-[clamp(2.35rem,5.2vw,4.35rem)] font-bold leading-[1.05] tracking-[-0.045em] text-white text-balance rtl:text-[clamp(2.05rem,4.8vw,3.9rem)] rtl:leading-[1.2]">
+              {t.home.hero.title.split(' pour ')[0]}{' '}
+              {t.home.hero.title.includes(' pour ') && <><span className="text-[#70BF35]">pour</span>{' '}{t.home.hero.title.split(' pour ').slice(1).join(' pour ')}</>}
+            </h1>
+            <p className="mt-6 max-w-xl text-base leading-7 text-[#d8e5f7] sm:text-lg">{t.home.hero.subtitle}</p>
+            <p className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-white/95"><CheckCircle2 className="h-4 w-4 shrink-0 text-[#70BF35]" aria-hidden="true" />{t.brand.tagline}</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <Button variant="accent" size="lg" onClick={browse} className="w-full sm:w-auto"><span>{t.brand.secondaryCta}</span><ArrowRight className="h-4 w-4 rtl:rotate-180" /></Button>
-              <Button variant="secondary" size="lg" onClick={() => onNavigate('contact', 'les-deux')} className="w-full border-[#12223d]/20 bg-white sm:w-auto">{t.brand.primaryCta}</Button>
+              <Button variant="outlineLight" size="lg" onClick={() => onNavigate('contact', 'les-deux')} className="w-full sm:w-auto">{t.brand.primaryCta}</Button>
             </div>
-            <div className="mt-9 grid max-w-xl grid-cols-2 gap-x-7 gap-y-4 border-t border-[#12223d]/12 pt-6 sm:grid-cols-3">
-              <div><p className="text-2xl font-bold text-[#1765BD]">B2B</p><p className="mt-1 text-xs leading-4 text-[#6d7884]">{t.home.trustMessages[0].detail}</p></div>
-              <div><p className="text-2xl font-bold text-[#70BF35]">2 pôles</p><p className="mt-1 text-xs leading-4 text-[#6d7884]">{t.home.trustMessages[1].detail}</p></div>
-              <div className="col-span-2 sm:col-span-1"><p className="text-2xl font-bold text-[#12223d]">Belfaa</p><p className="mt-1 text-xs leading-4 text-[#6d7884]">{t.home.trustMessages[2].detail}</p></div>
-            </div>
-          </motion.div>
-
-          <motion.div initial={shouldReduceMotion ? false : { opacity: 0, x: 16 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.08, ease: easeCurve }} className="relative min-w-0">
-            <div className="absolute -end-12 -top-10 h-48 w-48 rounded-full bg-[#c9edaa] blur-3xl" aria-hidden="true" />
-            <div className="relative overflow-hidden rounded-[2rem] bg-[#12223d] p-2 shadow-[0_30px_70px_-32px_rgba(18,34,61,0.6)]">
-              <div className="relative aspect-[1.05/1] overflow-hidden rounded-[1.5rem]">
-                <MediaFrame src={HERO_MEDIA.src} alt={t.home.hero.imageAlt} aspectClassName="h-full" className="h-full rounded-none border-0" imgClassName="h-full object-cover" fallbackLabel={t.home.hero.fallbackLabel} priority />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#12223d]/75 via-transparent to-transparent" />
-                <div className="absolute bottom-5 inset-x-5 flex items-end justify-between gap-4 text-white sm:bottom-7 sm:inset-x-7"><div><p className="text-xs font-bold uppercase tracking-[0.13em] text-[#baf27f]">{t.brand.tagline}</p><p className="mt-2 text-xl font-bold sm:text-2xl">{t.brand.location}</p></div><span className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-[#70BF35] text-[#12223d]"><ArrowUpRight className="h-5 w-5" /></span></div>
-              </div>
-            </div>
-            <div className="absolute -bottom-7 -start-5 hidden w-52 rounded-2xl border border-[#12223d]/10 bg-white p-4 shadow-[0_18px_40px_-25px_rgba(18,34,61,0.5)] sm:block"><div className="flex items-center gap-3"><span className="grid h-10 w-10 place-items-center rounded-xl bg-[#e6f5d9] text-[#4d922a]"><Truck className="h-5 w-5" /></span><div><p className="text-xs font-bold text-[#12223d]">{t.home.trustMessages[3].title}</p><p className="mt-1 text-[11px] text-slate-500">{t.home.trustMessages[3].detail}</p></div></div></div>
           </motion.div>
         </div>
-      </section>
 
-      <section className="border-y border-[#12223d]/8 bg-white px-4 py-10 sm:px-6 lg:px-8">
-        <div className="mx-auto grid max-w-7xl gap-4 sm:grid-cols-2 lg:grid-cols-4">{t.home.trustMessages.map((item, idx) => <Reveal key={item.title} delay={idx * 0.04}><div className="flex items-start gap-3 border-[#12223d]/10 px-2 py-2 lg:border-e lg:last:border-e-0"><span className="mt-0.5 text-lg font-bold text-[#70BF35]">0{idx + 1}</span><div><p className="text-sm font-bold text-[#12223d]">{item.title}</p><p className="mt-1 text-xs leading-5 text-[#6d7884]">{item.detail}</p></div></div></Reveal>)}</div>
+        <div className="absolute inset-x-0 bottom-0 z-20 border-t border-white/10 bg-[#07152f]/92 backdrop-blur-sm">
+          <div className="mx-auto grid max-w-7xl grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+            {t.home.trustMessages.map((item, idx) => <Reveal key={item.title} delay={idx * 0.04}><div className="flex min-h-[82px] items-center gap-3 border-b border-white/10 px-4 py-4 last:border-b-0 sm:border-e sm:px-5 sm:nth-[2n]:border-e-0 lg:border-b-0 lg:border-e lg:last:border-e-0"><span className="text-[#70BF35]">{idx === 0 ? '▧' : idx === 1 ? '▤' : idx === 2 ? '⌖' : '▥'}</span><div><p className="text-xs font-bold text-white sm:text-sm">{item.title}</p><p className="mt-1 text-[11px] leading-4 text-white/65">{item.detail}</p></div></div></Reveal>)}
+          </div>
+        </div>
       </section>
 
       <section id="poles-activite" className="px-4 py-24 sm:px-6 lg:px-8 lg:py-32">
