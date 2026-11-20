@@ -37,11 +37,13 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
           src={HERO_MEDIA.src}
           alt={t.home.hero.imageAlt}
           loading="eager"
+          decoding="async"
+          sizes="100vw"
           fetchPriority="high"
-          className="absolute inset-0 h-full w-full object-cover object-[68%_center] sm:object-center"
+          className="absolute inset-0 h-full w-full object-cover object-[72%_center] sm:object-[68%_center] lg:object-center"
         />
         <div aria-hidden="true" className="absolute inset-0 bg-[#07152f]/58" />
-        <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-r from-[#07152f]/98 via-[#0b1e44]/82 to-[#123774]/28 rtl:bg-gradient-to-l" />
+        <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-r from-[#07152f]/98 via-[#0b1e44]/88 to-[#123774]/38 rtl:bg-gradient-to-l sm:via-[#0b1e44]/82 sm:to-[#123774]/28" />
         <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-[#07152f]/90 via-transparent to-[#07152f]/20" />
 
         <div className="relative z-10 mx-auto flex min-h-[620px] max-w-7xl items-center px-4 pb-24 pt-20 sm:min-h-[680px] sm:px-6 sm:pb-28 lg:min-h-[720px] lg:px-8">
@@ -49,19 +51,19 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
             initial={shouldReduceMotion ? false : { opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: easeCurve }}
-            className="max-w-2xl rtl:text-right"
+            className="max-w-2xl min-w-0 rtl:text-right"
           >
             <div className="inline-flex items-center gap-3 text-[#dce9f7]">
               <span aria-hidden="true" className="h-[2px] w-7 bg-[#70BF35]" />
               <span className="text-[11px] font-bold uppercase tracking-[0.11em] sm:text-xs">{t.home.hero.eyebrow}</span>
             </div>
-            <h1 className="mt-6 max-w-2xl text-[clamp(2.35rem,5.2vw,4.35rem)] font-bold leading-[1.05] tracking-[-0.045em] text-white text-balance rtl:text-[clamp(2.05rem,4.8vw,3.9rem)] rtl:leading-[1.2]">
+            <h1 className="mt-6 max-w-2xl text-[clamp(2.1rem,10vw,4.35rem)] font-bold leading-[1.06] tracking-[-0.045em] text-white text-balance sm:text-[clamp(2.35rem,5.2vw,4.35rem)] rtl:text-[clamp(1.95rem,9vw,3.9rem)] rtl:leading-[1.22] sm:rtl:text-[clamp(2.05rem,4.8vw,3.9rem)] sm:rtl:leading-[1.2]">
               {t.home.hero.title.split(' pour ')[0]}{' '}
               {t.home.hero.title.includes(' pour ') && <><span className="text-[#70BF35]">pour</span>{' '}{t.home.hero.title.split(' pour ').slice(1).join(' pour ')}</>}
             </h1>
-            <p className="mt-6 max-w-xl text-base leading-7 text-[#d8e5f7] sm:text-lg">{t.home.hero.subtitle}</p>
+            <p className="mt-5 max-w-xl text-[15px] leading-7 text-[#d8e5f7] sm:mt-6 sm:text-lg">{t.home.hero.subtitle}</p>
             <p className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-white/95"><CheckCircle2 className="h-4 w-4 shrink-0 text-[#70BF35]" aria-hidden="true" />{t.brand.tagline}</p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <div className="mt-7 flex w-full flex-col gap-3 sm:mt-8 sm:w-auto sm:flex-row sm:flex-wrap">
               <Button variant="accent" size="lg" onClick={browse} className="w-full sm:w-auto"><span>{t.brand.secondaryCta}</span><ArrowRight className="h-4 w-4 rtl:rotate-180" /></Button>
               <Button variant="outlineLight" size="lg" onClick={() => onNavigate('contact', 'les-deux')} className="w-full sm:w-auto">{t.brand.primaryCta}</Button>
             </div>
