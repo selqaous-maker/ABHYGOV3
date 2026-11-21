@@ -199,7 +199,7 @@ export const AR_TRANSLATIONS: TranslationDictionary = {
     },
     notice: {
       eyebrow: 'كتالوج تعريفي · نماذج توضيحية',
-      text: 'الفئات والمنتجات المعروضة أدناه هي مقترحات تعريفية بصور عامة لتوضيح هيكلة العرض، ولا تمثل مخزوناً مؤكداً أو مواصفات تعاقدية نهائية.',
+      text: 'يتضمن الكتالوج الآن مراجع مقترحة من موردنا FastMosk. قد تكون بعض الصور توضيحية، بينما يتم تأكيد التعبئة والتوفر والخصائص النهائية عند إعداد عرض السعر.',
     },
     catalogue: {
       sectionHeading: 'الكتالوج التعريفي لمنتجات النظافة المهنية',
@@ -327,6 +327,19 @@ export const AR_TRANSLATIONS: TranslationDictionary = {
         description:
           'نموذج لأقمشة تقنية وملحقات يدوية مصمّمة لتيسير أشغال الصيانة اليومية في المقرات.',
         imageAlt: 'صورة توضيحية عامة لمقشطة وأقمشة الميكروفايبر',
+      },
+
+      'supplier-hypo-javel-24': {
+        name: 'هيبو جافيل 24',
+        description: 'مطهّر غذائي وفلاحي ضمن مجموعة مورد FastMosk. يتم تأكيد التعبئة ومجالات الاستعمال عند إعداد عرض السعر.',
+        imageAlt: 'عبوة مطهّر هيبو جافيل 24 للاستعمال المهني',
+        technicalNotes: 'مرجع مورد FastMosk · المعطيات التقنية تؤكد عند الطلب.',
+      },
+      'supplier-hypo-javel-12': {
+        name: 'هيبو جافيل 12',
+        description: 'مطهّر غذائي وفلاحي ضمن مجموعة مورد FastMosk. يتم تأكيد التعبئة ومجالات الاستعمال عند إعداد عرض السعر.',
+        imageAlt: 'عبوة مطهّر هيبو جافيل 12 للاستعمال المهني',
+        technicalNotes: 'مرجع مورد FastMosk · المعطيات التقنية تؤكد عند الطلب.',
       },
     },
   },
@@ -527,6 +540,55 @@ export const AR_TRANSLATIONS: TranslationDictionary = {
           'صورة توضيحية عامة لسترة عالية الوضوح',
           'تجهيز نسيجي عالي الوضوح',
         ],
+      },
+
+      'supplier-botte-pvc-alimentaire-blanche': {
+        name: 'بوت من PVC أبيض للاستعمال الغذائي',
+        shortDescription: 'بوت حماية غذائي أبيض ضمن مجموعة FastMosk. يتم تأكيد المقاسات والخصائص عند إعداد عرض السعر.',
+        galleryAlts: ['بوت أبيض من PVC للاستعمال الغذائي'],
+        technicalNotes: 'مرجع مورد FastMosk · المقاسات والتفاصيل التقنية تؤكد عند الطلب.',
+      },
+      'supplier-casque-anti-bruit': {
+        name: 'خوذة واقية من الضجيج',
+        shortDescription: 'وسيلة حماية فردية للسمع ضمن مجموعة FastMosk. يتم تأكيد مستوى التخفيف عند إعداد عرض السعر.',
+        galleryAlts: ['خوذة واقية من الضجيج لحماية السمع'],
+        technicalNotes: 'مرجع مورد FastMosk · مستوى التخفيف يؤكد عند الطلب.',
+      },
+      'supplier-chaussures-securite-ars': {
+        name: 'أحذية السلامة ARS',
+        shortDescription: 'أحذية السلامة ARS ضمن مجموعة FastMosk. يتم تأكيد الأرقام والخصائص عند إعداد عرض السعر.',
+        galleryAlts: ['أحذية السلامة ARS'],
+        technicalNotes: 'مرجع مورد FastMosk · الأرقام والخصائص تؤكد عند الطلب.',
+      },
+      'supplier-chaussures-securite-mts': {
+        name: 'أحذية السلامة MTS',
+        shortDescription: 'أحذية السلامة MTS ضمن مجموعة FastMosk. يتم تأكيد الأرقام والخصائص عند إعداد عرض السعر.',
+        galleryAlts: ['أحذية السلامة MTS'],
+        technicalNotes: 'مرجع مورد FastMosk · الأرقام والخصائص تؤكد عند الطلب.',
+      },
+      'supplier-gant-bicolore': {
+        name: 'قفاز ثنائي اللون',
+        shortDescription: 'قفاز حماية ثنائي اللون ضمن مجموعة FastMosk. يتم تأكيد المادة ومستوى الحماية عند إعداد عرض السعر.',
+        galleryAlts: ['قفاز حماية مهني ثنائي اللون'],
+        technicalNotes: 'مرجع مورد FastMosk · المادة ومستوى الحماية يؤكدان عند الطلب.',
+      },
+      'supplier-lunette-protection': {
+        name: 'نظارة واقية',
+        shortDescription: 'نظارة وقاية ضمن مجموعة FastMosk. يتم تأكيد خصائص العدسة عند إعداد عرض السعر.',
+        galleryAlts: ['نظارة وقاية مهنية'],
+        technicalNotes: 'مرجع مورد FastMosk · خصائص العدسة تؤكد عند الطلب.',
+      },
+      'supplier-masque-climax': {
+        name: 'كمامة Climax',
+        shortDescription: 'كمامة Climax ضمن مجموعة FastMosk. يتم تأكيد المرجع والمرشحات ومستوى الحماية عند إعداد عرض السعر.',
+        galleryAlts: ['كمامة Climax للوقاية التنفسية'],
+        technicalNotes: 'مرجع مورد FastMosk · المرشحات ومستوى الحماية يؤكدان عند الطلب.',
+      },
+      'supplier-sabot': {
+        name: 'حذاء وقاية مفتوح',
+        shortDescription: 'حذاء وقاية ضمن مجموعة FastMosk. يتم تأكيد الأرقام والخصائص عند إعداد عرض السعر.',
+        galleryAlts: ['حذاء وقاية مهني'],
+        technicalNotes: 'مرجع مورد FastMosk · الأرقام والخصائص تؤكد عند الطلب.',
       },
     },
   },

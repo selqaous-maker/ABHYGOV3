@@ -203,7 +203,7 @@ export const FR_TRANSLATIONS: TranslationDictionary = {
     },
     notice: {
       eyebrow: 'Catalogue provisoire · Démonstration',
-      text: 'Les catégories et fiches présentées ci-dessous sont des propositions de démonstration avec visuels génériques. Elles ne constituent pas un inventaire confirmé ni des spécifications contractuelles.',
+      text: 'Le catalogue inclut désormais des références proposées par notre fournisseur FastMosk. Les visuels peuvent être indicatifs et les conditionnements, disponibilités et caractéristiques finales sont confirmés sur devis.',
     },
     catalogue: {
       sectionHeading: "Catalogue provisoire des produits d'hygiène",
@@ -331,6 +331,19 @@ export const FR_TRANSLATIONS: TranslationDictionary = {
         description:
           "Exemple de textiles techniques et accessoires manuels pour l'entretien quotidien des locaux.",
         imageAlt: 'Visuel générique de raclette et textiles microfibres',
+      },
+
+      'supplier-hypo-javel-24': {
+        name: 'Hypo Javel 24',
+        description: 'Désinfectant alimentaire et agricole de la gamme FastMosk. Conditionnement et usages détaillés à confirmer sur devis.',
+        imageAlt: 'Bidon de désinfectant Hypo Javel 24 pour usage professionnel',
+        technicalNotes: 'Référence fournisseur FastMosk · informations techniques à confirmer.',
+      },
+      'supplier-hypo-javel-12': {
+        name: 'Hypo Javel 12',
+        description: 'Désinfectant alimentaire et agricole de la gamme FastMosk. Conditionnement et usages détaillés à confirmer sur devis.',
+        imageAlt: 'Bidon de désinfectant Hypo Javel 12 pour usage professionnel',
+        technicalNotes: 'Référence fournisseur FastMosk · informations techniques à confirmer.',
       },
     },
   },
@@ -532,6 +545,55 @@ export const FR_TRANSLATIONS: TranslationDictionary = {
           'Visuel générique de gilet haute visibilité',
           'Équipement textile haute visibilité',
         ],
+      },
+
+      'supplier-botte-pvc-alimentaire-blanche': {
+        name: 'Botte en PVC alimentaire blanche',
+        shortDescription: 'Botte de protection alimentaire blanche de la gamme FastMosk. Tailles et caractéristiques à confirmer sur devis.',
+        galleryAlts: ['Botte blanche en PVC alimentaire'],
+        technicalNotes: 'Référence fournisseur FastMosk · tailles et détails techniques à confirmer.',
+      },
+      'supplier-casque-anti-bruit': {
+        name: 'Casque anti-bruit',
+        shortDescription: 'Protection auditive individuelle de la gamme FastMosk. Niveau d’atténuation à confirmer sur devis.',
+        galleryAlts: ['Casque anti-bruit de protection auditive'],
+        technicalNotes: 'Référence fournisseur FastMosk · niveau d’atténuation à confirmer.',
+      },
+      'supplier-chaussures-securite-ars': {
+        name: 'Chaussures de sécurité ARS',
+        shortDescription: 'Chaussures de sécurité ARS de la gamme FastMosk. Pointures et caractéristiques à confirmer sur devis.',
+        galleryAlts: ['Chaussures de sécurité ARS'],
+        technicalNotes: 'Référence fournisseur FastMosk · pointures et caractéristiques à confirmer.',
+      },
+      'supplier-chaussures-securite-mts': {
+        name: 'Chaussures de sécurité MTS',
+        shortDescription: 'Chaussures de sécurité MTS de la gamme FastMosk. Pointures et caractéristiques à confirmer sur devis.',
+        galleryAlts: ['Chaussures de sécurité MTS'],
+        technicalNotes: 'Référence fournisseur FastMosk · pointures et caractéristiques à confirmer.',
+      },
+      'supplier-gant-bicolore': {
+        name: 'Gant bicolore',
+        shortDescription: 'Gant de protection bicolore de la gamme FastMosk. Matière et niveau de protection à confirmer sur devis.',
+        galleryAlts: ['Gant bicolore de protection professionnelle'],
+        technicalNotes: 'Référence fournisseur FastMosk · matière et niveau de protection à confirmer.',
+      },
+      'supplier-lunette-protection': {
+        name: 'Lunette de protection',
+        shortDescription: 'Lunette de protection de la gamme FastMosk. Caractéristiques de l’oculaire à confirmer sur devis.',
+        galleryAlts: ['Lunette de protection professionnelle'],
+        technicalNotes: 'Référence fournisseur FastMosk · caractéristiques de l’oculaire à confirmer.',
+      },
+      'supplier-masque-climax': {
+        name: 'Masque Climax',
+        shortDescription: 'Masque Climax de la gamme FastMosk. Référence, filtres et niveau de protection à confirmer sur devis.',
+        galleryAlts: ['Masque Climax de protection respiratoire'],
+        technicalNotes: 'Référence fournisseur FastMosk · filtres et niveau de protection à confirmer.',
+      },
+      'supplier-sabot': {
+        name: 'Sabot de protection',
+        shortDescription: 'Sabot de protection de la gamme FastMosk. Pointures et caractéristiques à confirmer sur devis.',
+        galleryAlts: ['Sabot de protection professionnel'],
+        technicalNotes: 'Référence fournisseur FastMosk · pointures et caractéristiques à confirmer.',
       },
     },
   },

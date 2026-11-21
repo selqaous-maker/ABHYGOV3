@@ -170,4 +170,25 @@ export const HYGIENE_DEMO_PRODUCTS: HygieneProductItem[] = [
     imageAlt: 'Visuel générique de raclette et textiles microfibres',
     isDemo: true,
   },
+  {
+    id: 'supplier-hypo-javel-24',
+    name: 'Hypo Javel 24',
+    categoryId: 'produits-desinfectants',
+    description: 'Désinfectant alimentaire et agricole proposé dans la gamme du fournisseur FastMosk. Conditionnement et usages détaillés à confirmer sur devis.',
+    imageSrc: '/src/assets/images/demo_cat_desinfectant_1795121772139.jpg',
+    imageAlt: 'Bidon de désinfectant Hypo Javel 24 pour usage professionnel',
+    technicalNotes: 'Référence fournisseur FastMosk · informations techniques à confirmer.',
+    isDemo: false,
+  },
+  {
+    id: 'supplier-hypo-javel-12',
+    name: 'Hypo Javel 12',
+    categoryId: 'produits-desinfectants',
+    description: 'Désinfectant alimentaire et agricole proposé dans la gamme du fournisseur FastMosk. Conditionnement et usages détaillés à confirmer sur devis.',
+    imageSrc: '/src/assets/images/demo_cat_desinfectant_1795121772139.jpg',
+    imageAlt: 'Bidon de désinfectant Hypo Javel 12 pour usage professionnel',
+    technicalNotes: 'Référence fournisseur FastMosk · informations techniques à confirmer.',
+    isDemo: false,
+  },
+
 ];
