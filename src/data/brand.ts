@@ -30,7 +30,7 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const HERO_MEDIA = {
-  src: '/src/assets/images/hero_abhygo_supply_1795119463619.jpg',
+  src: '/images/hero_abhygo_supply_1795119463619.jpg',
   alt: "Fournitures professionnelles d'hygiène et équipements de protection individuelle ABHYGO",
 };
 
@@ -42,7 +42,7 @@ export const SUPPLY_DIVISIONS: Record<'hygiene' | 'epi', DivisionOverview> = {
     title: "Produits d'hygiène",
     description:
       "Approvisionnement B2B en solutions d'hygiène destinées aux environnements professionnels, industriels et tertiaires.",
-    imageSrc: '/src/assets/images/hygiene_professionnelle_showcase_1795119464027.jpg',
+    imageSrc: '/images/hygiene_professionnelle_showcase_1795119464027.jpg',
     imageAlt: "Bidons concentrés, distributeurs muraux et consommables d'hygiène professionnelle",
     domains: [
       {
@@ -78,7 +78,7 @@ export const SUPPLY_DIVISIONS: Record<'hygiene' | 'epi', DivisionOverview> = {
     title: 'Équipements de Protection Individuelle (EPI)',
     description:
       "Fourniture d'équipements conçus pour accompagner la sécurité des opérateurs et des équipes sur le terrain.",
-    imageSrc: '/src/assets/images/epi_protection_showcase_1795119463291.jpg',
+    imageSrc: '/images/epi_protection_showcase_1795119463291.jpg',
     imageAlt: 'Casque de sécurité, lunettes de protection, gilet haute visibilité et gants professionnels',
     domains: [
       {

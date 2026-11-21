@@ -59,11 +59,11 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
       'Exemple de paire de gants tricotés avec enduction paume pour les opérations courantes de manutention en entrepôt ou atelier.',
     galleryImages: [
       {
-        src: '/src/assets/images/demo_epi_gants_1795122050776.jpg',
+        src: '/images/demo_epi_gants_1795122050776.jpg',
         alt: 'Visuel générique de gants de protection pour manutention',
       },
       {
-        src: '/src/assets/images/epi_protection_showcase_1795119463291.jpg',
+        src: '/images/epi_protection_showcase_1795119463291.jpg',
         alt: "Ensemble d'équipements de protection individuelle",
       },
     ],
@@ -77,11 +77,11 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
       "Exemple de gants professionnels conçus pour les postes techniques nécessitant préhension et confort d'usage.",
     galleryImages: [
       {
-        src: '/src/assets/images/demo_epi_gants_1795122050776.jpg',
+        src: '/images/demo_epi_gants_1795122050776.jpg',
         alt: "Visuel générique de gants de protection d'atelier",
       },
       {
-        src: '/src/assets/images/hero_abhygo_supply_1795119463619.jpg',
+        src: '/images/hero_abhygo_supply_1795119463619.jpg',
         alt: 'Fournitures professionnelles et équipements EPI',
       },
     ],
@@ -95,11 +95,11 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
       'Exemple de masque à coque préformée destiné aux environnements nécessitant une barrière respiratoire individuelle.',
     galleryImages: [
       {
-        src: '/src/assets/images/demo_epi_masques_1795122051045.jpg',
+        src: '/images/demo_epi_masques_1795122051045.jpg',
         alt: 'Visuel générique de masques de protection respiratoire',
       },
       {
-        src: '/src/assets/images/epi_protection_showcase_1795119463291.jpg',
+        src: '/images/epi_protection_showcase_1795119463291.jpg',
         alt: "Vue complémentaire d'équipements EPI",
       },
     ],
@@ -113,11 +113,11 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
       'Exemple de masque individuel pliable adapté à une distribution pratique sur site pour les équipes.',
     galleryImages: [
       {
-        src: '/src/assets/images/demo_epi_masques_1795122051045.jpg',
+        src: '/images/demo_epi_masques_1795122051045.jpg',
         alt: 'Visuel générique de masques pliables de protection',
       },
       {
-        src: '/src/assets/images/hero_abhygo_supply_1795119463619.jpg',
+        src: '/images/hero_abhygo_supply_1795119463619.jpg',
         alt: 'Contexte professionnel hygiène et EPI',
       },
     ],
@@ -131,11 +131,11 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
       'Exemple de lunettes transparentes à branches enveloppantes destinées à la protection oculaire quotidienne.',
     galleryImages: [
       {
-        src: '/src/assets/images/demo_epi_lunettes_1795122050662.jpg',
+        src: '/images/demo_epi_lunettes_1795122050662.jpg',
         alt: 'Visuel générique de lunettes de protection et visière',
       },
       {
-        src: '/src/assets/images/epi_protection_showcase_1795119463291.jpg',
+        src: '/images/epi_protection_showcase_1795119463291.jpg',
         alt: 'Lunettes et équipements de sécurité sur table',
       },
     ],
@@ -149,11 +149,11 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
       "Exemple d'écran facial réglable couvrant l'ensemble du visage lors des tâches exposées.",
     galleryImages: [
       {
-        src: '/src/assets/images/demo_epi_lunettes_1795122050662.jpg',
+        src: '/images/demo_epi_lunettes_1795122050662.jpg',
         alt: 'Visuel générique de visière faciale de protection',
       },
       {
-        src: '/src/assets/images/hero_abhygo_supply_1795119463619.jpg',
+        src: '/images/hero_abhygo_supply_1795119463619.jpg',
         alt: 'Équipements de sécurité et hygiène professionnelle',
       },
     ],
@@ -167,11 +167,11 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
       'Exemple de casque industriel avec harnais réglable destiné aux zones de chantier et de manutention.',
     galleryImages: [
       {
-        src: '/src/assets/images/demo_epi_casques_1795122051598.jpg',
+        src: '/images/demo_epi_casques_1795122051598.jpg',
         alt: 'Visuel générique de casques de sécurité blancs et bleu marine',
       },
       {
-        src: '/src/assets/images/epi_protection_showcase_1795119463291.jpg',
+        src: '/images/epi_protection_showcase_1795119463291.jpg',
         alt: 'Casque de sécurité et vêtements haute visibilité',
       },
     ],
@@ -185,11 +185,11 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
       'Exemple de protection crânienne avec maintien par sangle pour les interventions sur site technique.',
     galleryImages: [
       {
-        src: '/src/assets/images/demo_epi_casques_1795122051598.jpg',
+        src: '/images/demo_epi_casques_1795122051598.jpg',
         alt: 'Visuel générique de casque industriel de sécurité',
       },
       {
-        src: '/src/assets/images/hero_abhygo_supply_1795119463619.jpg',
+        src: '/images/hero_abhygo_supply_1795119463619.jpg',
         alt: 'Casque et lunettes de sécurité',
       },
     ],
@@ -203,11 +203,11 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
       'Exemple de chaussures montantes à lacets pour le maintien de la cheville et le travail en environnement industriel.',
     galleryImages: [
       {
-        src: '/src/assets/images/demo_epi_chaussures_1795122050970.jpg',
+        src: '/images/demo_epi_chaussures_1795122050970.jpg',
         alt: 'Visuel générique de chaussures de sécurité montantes',
       },
       {
-        src: '/src/assets/images/epi_protection_showcase_1795119463291.jpg',
+        src: '/images/epi_protection_showcase_1795119463291.jpg',
         alt: 'Sélection générale EPI',
       },
     ],
@@ -221,11 +221,11 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
       "Exemple de modèle conçu pour l'adhérence et l'endurance lors des déplacements quotidiens sur site.",
     galleryImages: [
       {
-        src: '/src/assets/images/demo_epi_chaussures_1795122050970.jpg',
+        src: '/images/demo_epi_chaussures_1795122050970.jpg',
         alt: 'Visuel générique de chaussures de travail professionnelles',
       },
       {
-        src: '/src/assets/images/hero_abhygo_supply_1795119463619.jpg',
+        src: '/images/hero_abhygo_supply_1795119463619.jpg',
         alt: 'Environnement industriel EPI',
       },
     ],
@@ -239,11 +239,11 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
       'Exemple de veste professionnelle fonctionnelle adaptée aux interventions en atelier, maintenance ou logistique.',
     galleryImages: [
       {
-        src: '/src/assets/images/demo_epi_vetements_1795122051283.jpg',
+        src: '/images/demo_epi_vetements_1795122051283.jpg',
         alt: 'Visuel générique de veste de travail et gilet haute visibilité',
       },
       {
-        src: '/src/assets/images/epi_protection_showcase_1795119463291.jpg',
+        src: '/images/epi_protection_showcase_1795119463291.jpg',
         alt: 'Tenue professionnelle haute visibilité',
       },
     ],
@@ -257,11 +257,11 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
       'Exemple de vêtement équipé de bandes rétro-réfléchissantes pour améliorer le repérage visuel des équipes.',
     galleryImages: [
       {
-        src: '/src/assets/images/demo_epi_vetements_1795122051283.jpg',
+        src: '/images/demo_epi_vetements_1795122051283.jpg',
         alt: 'Visuel générique de gilet haute visibilité',
       },
       {
-        src: '/src/assets/images/epi_protection_showcase_1795119463291.jpg',
+        src: '/images/epi_protection_showcase_1795119463291.jpg',
         alt: 'Équipement textile haute visibilité',
       },
     ],
@@ -272,7 +272,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Botte en PVC alimentaire blanche',
     categoryId: 'chaussures-securite',
     shortDescription: 'Botte de protection alimentaire blanche proposée dans la gamme du fournisseur FastMosk. Tailles et caractéristiques à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/botte-en-pvc-alimentaire-blanche.jpg', alt: 'Botte blanche en PVC alimentaire' }],
+    galleryImages: [{ src: '/images/fastmosk/botte-en-pvc-alimentaire-blanche.jpg', alt: 'Botte blanche en PVC alimentaire' }],
     technicalNotes: 'Référence fournisseur FastMosk · tailles et détails techniques à confirmer.',
     isDemo: false,
   },
@@ -281,7 +281,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Casque anti-bruit',
     categoryId: 'casques-securite',
     shortDescription: 'Protection auditive individuelle proposée dans la gamme du fournisseur FastMosk. Niveau d’atténuation à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/casque-anti-bruit.jpg', alt: 'Casque anti-bruit de protection auditive' }],
+    galleryImages: [{ src: '/images/fastmosk/casque-anti-bruit.jpg', alt: 'Casque anti-bruit de protection auditive' }],
     technicalNotes: 'Référence fournisseur FastMosk · niveau d’atténuation à confirmer.',
     isDemo: false,
   },
@@ -290,7 +290,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Chaussures de sécurité ARS',
     categoryId: 'chaussures-securite',
     shortDescription: 'Chaussures de sécurité ARS proposées dans la gamme du fournisseur FastMosk. Pointures et caractéristiques à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/chaussures-de-securite-ars.jpg', alt: 'Chaussures de sécurité ARS' }],
+    galleryImages: [{ src: '/images/fastmosk/chaussures-de-securite-ars.jpg', alt: 'Chaussures de sécurité ARS' }],
     technicalNotes: 'Référence fournisseur FastMosk · pointures et caractéristiques à confirmer.',
     isDemo: false,
   },
@@ -299,7 +299,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Chaussures de sécurité MTS',
     categoryId: 'chaussures-securite',
     shortDescription: 'Chaussures de sécurité MTS proposées dans la gamme du fournisseur FastMosk. Pointures et caractéristiques à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/chaussures-de-securite-mts.jpg', alt: 'Chaussures de sécurité MTS' }],
+    galleryImages: [{ src: '/images/fastmosk/chaussures-de-securite-mts.jpg', alt: 'Chaussures de sécurité MTS' }],
     technicalNotes: 'Référence fournisseur FastMosk · pointures et caractéristiques à confirmer.',
     isDemo: false,
   },
@@ -308,7 +308,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Gant bicolore',
     categoryId: 'gants-protection',
     shortDescription: 'Gant de protection bicolore proposé dans la gamme du fournisseur FastMosk. Matière et niveau de protection à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/gant-bicolore.jpg', alt: 'Gant bicolore de protection professionnelle' }],
+    galleryImages: [{ src: '/images/fastmosk/gant-bicolore.jpg', alt: 'Gant bicolore de protection professionnelle' }],
     technicalNotes: 'Référence fournisseur FastMosk · matière et niveau de protection à confirmer.',
     isDemo: false,
   },
@@ -317,7 +317,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Lunette de protection',
     categoryId: 'lunettes-visieres',
     shortDescription: 'Lunette de protection proposée dans la gamme du fournisseur FastMosk. Caractéristiques de l’oculaire à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/lunette-de-protection.jpg', alt: 'Lunette de protection professionnelle' }],
+    galleryImages: [{ src: '/images/fastmosk/lunette-de-protection.jpg', alt: 'Lunette de protection professionnelle' }],
     technicalNotes: 'Référence fournisseur FastMosk · caractéristiques de l’oculaire à confirmer.',
     isDemo: false,
   },
@@ -326,7 +326,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Masque Climax',
     categoryId: 'masques-protection',
     shortDescription: 'Masque Climax proposé dans la gamme du fournisseur FastMosk. Référence, filtres et niveau de protection à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/masque-climax.jpg', alt: 'Masque Climax de protection respiratoire' }],
+    galleryImages: [{ src: '/images/fastmosk/masque-climax.jpg', alt: 'Masque Climax de protection respiratoire' }],
     technicalNotes: 'Référence fournisseur FastMosk · filtres et niveau de protection à confirmer.',
     isDemo: false,
   },
@@ -335,7 +335,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Sabot de protection',
     categoryId: 'chaussures-securite',
     shortDescription: 'Sabot de protection proposé dans la gamme du fournisseur FastMosk. Pointures et caractéristiques à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/sabot.jpg', alt: 'Sabot de protection professionnel' }],
+    galleryImages: [{ src: '/images/fastmosk/sabot.jpg', alt: 'Sabot de protection professionnel' }],
     technicalNotes: 'Référence fournisseur FastMosk · pointures et caractéristiques à confirmer.',
     isDemo: false,
   },
@@ -345,7 +345,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Blouse à usage unique',
     categoryId: 'vetements-combinaisons',
     shortDescription: 'Blouse à usage unique proposé dans la gamme du fournisseur FastMosk. Les tailles, matières et caractéristiques sont à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/blouse-a-usage-unique.jpg', alt: 'Blouse à usage unique' }],
+    galleryImages: [{ src: '/images/fastmosk/blouse-a-usage-unique.jpg', alt: 'Blouse à usage unique' }],
     technicalNotes: 'Référence fournisseur FastMosk · détails techniques à confirmer.',
     isDemo: false,
   },
@@ -354,7 +354,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Charlotte à usage unique',
     categoryId: 'vetements-combinaisons',
     shortDescription: 'Charlotte à usage unique proposé dans la gamme du fournisseur FastMosk. Les tailles, matières et caractéristiques sont à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/charlotte-a-usage-unique.jpg', alt: 'Charlotte à usage unique' }],
+    galleryImages: [{ src: '/images/fastmosk/charlotte-a-usage-unique.jpg', alt: 'Charlotte à usage unique' }],
     technicalNotes: 'Référence fournisseur FastMosk · détails techniques à confirmer.',
     isDemo: false,
   },
@@ -363,7 +363,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Couvre-botte à usage unique',
     categoryId: 'chaussures-securite',
     shortDescription: 'Couvre-botte à usage unique proposé dans la gamme du fournisseur FastMosk. Les tailles, matières et caractéristiques sont à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/couvre-botte-a-usage-unique.jpg', alt: 'Couvre-botte à usage unique' }],
+    galleryImages: [{ src: '/images/fastmosk/couvre-botte-a-usage-unique.jpg', alt: 'Couvre-botte à usage unique' }],
     technicalNotes: 'Référence fournisseur FastMosk · détails techniques à confirmer.',
     isDemo: false,
   },
@@ -372,7 +372,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Couvre-chaussure à usage unique',
     categoryId: 'vetements-combinaisons',
     shortDescription: 'Couvre-chaussure à usage unique proposé dans la gamme du fournisseur FastMosk. Les tailles, matières et caractéristiques sont à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/couvre-chaussure-a-usage-unique.jpg', alt: 'Couvre-chaussure à usage unique' }],
+    galleryImages: [{ src: '/images/fastmosk/couvre-chaussure-a-usage-unique.jpg', alt: 'Couvre-chaussure à usage unique' }],
     technicalNotes: 'Référence fournisseur FastMosk · détails techniques à confirmer.',
     isDemo: false,
   },
@@ -381,7 +381,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Gant jetable en nitrile bleu',
     categoryId: 'gants-protection',
     shortDescription: 'Gant jetable en nitrile bleu proposé dans la gamme du fournisseur FastMosk. Les tailles, matières et caractéristiques sont à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/gant-jetable-en-nitrile-bleu.jpg', alt: 'Gant jetable en nitrile bleu' }],
+    galleryImages: [{ src: '/images/fastmosk/gant-jetable-en-nitrile-bleu.jpg', alt: 'Gant jetable en nitrile bleu' }],
     technicalNotes: 'Référence fournisseur FastMosk · détails techniques à confirmer.',
     isDemo: false,
   },
@@ -390,7 +390,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Gant jetable en nitrile bleu renforcé',
     categoryId: 'gants-protection',
     shortDescription: 'Gant jetable en nitrile bleu renforcé proposé dans la gamme du fournisseur FastMosk. Les tailles, matières et caractéristiques sont à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/gant-jetable-en-nitrile-bleu-2.jpg', alt: 'Gant jetable en nitrile bleu renforcé' }],
+    galleryImages: [{ src: '/images/fastmosk/gant-jetable-en-nitrile-bleu-2.jpg', alt: 'Gant jetable en nitrile bleu renforcé' }],
     technicalNotes: 'Référence fournisseur FastMosk · détails techniques à confirmer.',
     isDemo: false,
   },
@@ -399,7 +399,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Gant jetable en vinyle',
     categoryId: 'gants-protection',
     shortDescription: 'Gant jetable en vinyle proposé dans la gamme du fournisseur FastMosk. Les tailles, matières et caractéristiques sont à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/gant-jetable-en-vinyle.jpg', alt: 'Gant jetable en vinyle' }],
+    galleryImages: [{ src: '/images/fastmosk/gant-jetable-en-vinyle.jpg', alt: 'Gant jetable en vinyle' }],
     technicalNotes: 'Référence fournisseur FastMosk · détails techniques à confirmer.',
     isDemo: false,
   },
@@ -408,7 +408,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Manchette à usage unique',
     categoryId: 'gants-protection',
     shortDescription: 'Manchette à usage unique proposé dans la gamme du fournisseur FastMosk. Les tailles, matières et caractéristiques sont à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/manchette-a-usage-unique.jpg', alt: 'Manchette à usage unique' }],
+    galleryImages: [{ src: '/images/fastmosk/manchette-a-usage-unique.jpg', alt: 'Manchette à usage unique' }],
     technicalNotes: 'Référence fournisseur FastMosk · détails techniques à confirmer.',
     isDemo: false,
   },
@@ -417,7 +417,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Botte de protection alimentaire blanche',
     categoryId: 'chaussures-securite',
     shortDescription: 'Botte de protection alimentaire blanche proposé dans la gamme du fournisseur FastMosk. Les tailles, matières et caractéristiques sont à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/botte-de-protection-alimentaire-blanche.jpg', alt: 'Botte de protection alimentaire blanche' }],
+    galleryImages: [{ src: '/images/fastmosk/botte-de-protection-alimentaire-blanche.jpg', alt: 'Botte de protection alimentaire blanche' }],
     technicalNotes: 'Référence fournisseur FastMosk · détails techniques à confirmer.',
     isDemo: false,
   },
@@ -426,7 +426,7 @@ export const EPI_DEMO_PRODUCTS: EpiProductItem[] = [
     name: 'Botte en PVC vert',
     categoryId: 'chaussures-securite',
     shortDescription: 'Botte en PVC vert proposé dans la gamme du fournisseur FastMosk. Les tailles, matières et caractéristiques sont à confirmer sur devis.',
-    galleryImages: [{ src: '/src/assets/images/fastmosk/botte-en-pvc-vert.jpg', alt: 'Botte en PVC vert' }],
+    galleryImages: [{ src: '/images/fastmosk/botte-en-pvc-vert.jpg', alt: 'Botte en PVC vert' }],
     technicalNotes: 'Référence fournisseur FastMosk · détails techniques à confirmer.',
     isDemo: false,
   },
